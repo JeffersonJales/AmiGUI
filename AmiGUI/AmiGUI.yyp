@@ -1,7 +1,15 @@
 {
   "resources": [
-    {"id":{"name":"o_amigui_button","path":"objects/o_amigui_button/o_amigui_button.yy",},"order":0,},
-    {"id":{"name":"o_amigui_mouse_cursor","path":"objects/o_amigui_mouse_cursor/o_amigui_mouse_cursor.yy",},"order":1,},
+    {"id":{"name":"o_amigui_abstract_button","path":"objects/o_amigui_abstract_button/o_amigui_abstract_button.yy",},"order":0,},
+    {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":2,},
+    {"id":{"name":"o_amigui_window","path":"objects/o_amigui_window/o_amigui_window.yy",},"order":3,},
+    {"id":{"name":"scr_amigui_cursor","path":"scripts/scr_amigui_cursor/scr_amigui_cursor.yy",},"order":1,},
+    {"id":{"name":"o_amigui_abstract_cursor","path":"objects/o_amigui_abstract_cursor/o_amigui_abstract_cursor.yy",},"order":1,},
+    {"id":{"name":"o_amigui_mouse_cursor","path":"objects/o_amigui_mouse_cursor/o_amigui_mouse_cursor.yy",},"order":2,},
+    {"id":{"name":"scr_amigui_animations","path":"scripts/scr_amigui_animations/scr_amigui_animations.yy",},"order":1,},
+    {"id":{"name":"room_amigui_test","path":"rooms/room_amigui_test/room_amigui_test.yy",},"order":2,},
+    {"id":{"name":"spr_button_check","path":"sprites/spr_button_check/spr_button_check.yy",},"order":1,},
+    {"id":{"name":"o_amigui_button_check","path":"objects/o_amigui_button_check/o_amigui_button_check.yy",},"order":0,},
     {"id":{"name":"scr_do_nothing","path":"scripts/scr_do_nothing/scr_do_nothing.yy",},"order":0,},
   ],
   "Options": [
@@ -17,11 +25,14 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrderNodes": [],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room_amigui_test","path":"rooms/room_amigui_test/room_amigui_test.yy",},},
+  ],
   "Folders": [
-    {"folderPath":"folders/AmiiGUI.yy","order":5,"resourceVersion":"1.0","name":"AmiiGUI","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects.yy","order":6,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts.yy","order":7,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/AmiiGUI.yy","order":0,"resourceVersion":"1.0","name":"AmiiGUI","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/AmiiGUI/Objects.yy","order":1,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/AmiiGUI/Scripts.yy","order":2,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/AmiiGUI/Examples.yy","order":0,"resourceVersion":"1.0","name":"Examples","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_button_check",
+    "path": "sprites/spr_button_check/spr_button_check.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_amigui_abstract_cursor",
-    "path": "objects/o_amigui_abstract_cursor/o_amigui_abstract_cursor.yy",
+    "name": "o_amigui_abstract_button",
+    "path": "objects/o_amigui_abstract_button/o_amigui_abstract_button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,16 +24,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/AmiiGUI/Objects.yy",
+    "name": "Examples",
+    "path": "folders/AmiiGUI/Examples.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_amigui_mouse_cursor",
+  "name": "o_amigui_button_check",
   "tags": [],
   "resourceType": "GMObject",
 }

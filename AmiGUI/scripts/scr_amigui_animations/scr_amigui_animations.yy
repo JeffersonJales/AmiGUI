@@ -6,7 +6,7 @@
     "path": "folders/AmiiGUI/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_do_nothing",
+  "name": "scr_amigui_animations",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -22,10 +22,10 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/AmiiGUI/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_amigui_button",
+  "name": "o_amigui_abstract_cursor",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/AmiiGUI/Scripts.yy",
+    "name": "AmiGUI",
+    "path": "AmiGUI.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "scr_do_nothing",
+  "name": "scr_amigui_cursor",
   "tags": [],
   "resourceType": "GMScript",
 }
